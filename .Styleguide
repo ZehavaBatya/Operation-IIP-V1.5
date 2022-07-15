@@ -1,0 +1,73 @@
+:root {
+ --black: rgba(0, 0, 0, 1);
+ --mirage: rgba(21, 32, 48, 1);
+ --neutral1800: rgba(40, 45, 61, 1);
+ --primary: rgba(41, 71, 169, 1);
+ --neutral500: rgba(101, 113, 153, 1);
+ --neutralwhite: rgba(255, 255, 255, 1);
+
+--font-size-xxs: 11.7px;
+--font-size-xs: 12px;
+--font-size-s: 13.2px;
+--font-size-m: 14.6px;
+--font-size-1: 26.3px;
+--font-size-x1: 52.7px;
+
+--font-family-inter: "Inter";
+--font-fmaily-work_sans: "Work Sans";
+}
+
+/* Classes */
+
+.worksans-normal-black-11-7px {
+    color: var(--black);
+    font-family: var(--black);
+    font-size: var(--font-family-work_sans);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.worksans-normal-guardsman-red-11-7px {
+    color: var(--guardman-red);
+    font-family: var(--font-family-work_sans);
+    font-size: var(--font-size-xxs);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-normal-black-12px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.worksans-normal-gray-chateau-13-2px {
+    color: var(--neutral300);
+    font-family: var(--font-family-works_sans);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.worksans-normal-white-11-7px {
+    font-family: var(--font-family-work_sans);
+    font-size: var(--font-size--xxs);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.border-1px-neutral100 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--neutral100);
+}
+
+.worksans-semi-bold-white-13-2px {
+    color: var(--neutralwhite);
+    font-family: var(--font-family-work_sans);
+    font-size: var(--font-size-s);
+    font-weight: 600;
+    font-style: normal;
+}
